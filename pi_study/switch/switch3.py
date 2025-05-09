@@ -80,10 +80,8 @@ def handle_button_press(button_number):
     sleep(0.5)
 
     if global_password == correct_password:
-        print("비밀번호 일치")
         play_correct_password_pattern()
     else:
-        print("비밀번호 실패")
         play_incorrect_password_pattern()
 
 
